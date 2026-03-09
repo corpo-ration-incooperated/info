@@ -18,6 +18,15 @@ h1 {
   font-size: 2.3em;
   font-style: normal;
   line-height: 0.3em;
+  margin-left: 0.35em;
+}
+.date2 {
+  color: rgb(34, 34, 34);
+  font-family: times;
+  text-align: right;
+  font-size: 2.3em;
+  font-style: normal;
+  line-height: 0.3em;
   margin-left: 0.9em;
 }
 .answer {
