@@ -28,6 +28,14 @@ h1 {
   margin-bottom: 3em;
   margin-left: 0em;
 }
+.answer1 {
+  color: black;
+  font-family: Times;
+  font-size: 0.898em;
+  text-align: left;
+  margin-bottom: 3em;
+  margin-left: 0.3em;
+}
 .answer2 {
   position: absolute;
   font-family: times;
