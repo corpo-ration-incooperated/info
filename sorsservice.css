@@ -46,10 +46,10 @@ h1 {
   font-size: 16px;
 }
 img {
-  border: 1px solid #ddd;
+  border: 0.3px solid #ddd;
   border-radius: 2.3em;
-  padding: 0.1em;
-  width: 0.3em;
+  padding: 2.3em;
+  width: 2.3em;
 }
 footer {
   position: absolute;
