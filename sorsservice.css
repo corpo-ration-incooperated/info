@@ -18,6 +18,7 @@ h1 {
   font-size: 2.3em;
   font-style: normal;
   line-height: 0.3em;
+    margin-left: 0.9em;
 }
 .answer {
   color: black;
@@ -34,7 +35,7 @@ h1 {
   font-size: 0.898em;
   text-align: left;
   margin-bottom: 3em;
-  margin-left: 0.3em;
+  margin-left: 0.9em;
 }
 .answer2 {
   position: absolute;
