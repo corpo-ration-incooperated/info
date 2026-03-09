@@ -45,6 +45,12 @@ h1 {
   font-style: normal;
   font-size: 16px;
 }
+img {
+  border: 1px solid #ddd;
+  border-radius: 2.3em;
+  padding: 0.1em;
+  width: 0.3em;
+}
 footer {
   position: absolute;
   font-family: times;
