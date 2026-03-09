@@ -18,7 +18,7 @@ h1 {
   font-size: 2.3em;
   font-style: normal;
   line-height: 0.3em;
-    margin-left: 0.9em;
+  margin-left: 0.9em;
 }
 .answer {
   color: black;
@@ -46,11 +46,11 @@ h1 {
   font-size: 16px;
 }
 img {
-  border: 0.1px solid #ddd;
-  border-radius: 2.3em;
-  padding: 2.3em;
-  width: 5.4em;
-  height:2.3em;
+  border: 0.1px solid blue;
+  border-radius: 0.3em;
+  padding: 1.5em;
+  width: 6.6em;
+  height:3.0em;
 }
 footer {
   position: absolute;
