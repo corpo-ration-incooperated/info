@@ -10,7 +10,7 @@ h1 {
   width: 23.232323232em;
   margin-bottom: 23em;
   margin-left: 0px;
-  word-break: break-all;
+  
 }
 .date {
   color: rgb(34, 34, 34);
@@ -37,10 +37,12 @@ h1 {
   line-height: 1.95;
   margin-bottom: 3em;
   margin-left: 0em;
+  word-break: break-all;
 }
 .answer1 {
   color: black;
   font-family: Times;
+  font-style: slanted;
   font-size: 0.898em;
   text-align: left;
   margin-bottom: 3em;
