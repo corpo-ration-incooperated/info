@@ -1,55 +1,55 @@
 body {
 }
 @font-face {
-  font-family: myTimes1; 
-  src: url(romane.otf); 
+  font-family: myTimes1;
+  src: url(romane.otf);
 }
 @font-face {
-  font-family: myTimes2; 
-  src: url(italic.otf); 
+  font-family: myTimes2;
+  src: url(italic.otf);
 }
 @font-face {
-  font-family: myTimes3; 
-  src: url(bolditalic.otf); 
+  font-family: myTimes3;
+  src: url(bolditalic.otf);
 }
 @font-face {
-  font-family: myTimes4; 
-  src: url(semibold.otf); 
+  font-family: myTimes4;
+  src: url(semibold.otf);
 }
 @font-face {
-  font-family: myTimes5; 
-  src: url(semibolditalic.otf); 
+  font-family: myTimes5;
+  src: url(semibolditalic.otf);
 }
 @font-face {
-  font-family: myTimes6; 
-  src: url(extrabold.otf); 
+  font-family: myTimes6;
+  src: url(extrabold.otf);
 }
 @font-face {
-  font-family: myTimes7; 
-  src: url(bold.otf); 
+  font-family: myTimes7;
+  src: url(bold.otf);
 }
 @font-face {
-  font-family: myTimes8; 
-  src: url(phonetic.otf); 
+  font-family: myTimes8;
+  src: url(phonetic.otf);
 }
 h1 {
   font-size: 2.3em;
-  font-family: myTimes1; 
+  font-family: myTimes1;
   color: black;
   word-spacing: 0.66em;
+  line-height: 0.023em;
 }
 .inner-body {
   width: 23.232323232em;
   margin-bottom: 23em;
   margin-left: 0px;
-  
 }
 .date {
   color: rgb(34, 34, 34);
   font-family: myTimes1;
   font-size: 2.3em;
   font-style: normal;
-  line-height: 0.3em;
+  line-height: 0.23em;
   margin-left: 0.35em;
 }
 .date2 {
@@ -89,20 +89,20 @@ h1 {
   font-size: 16px;
 }
 .answer3 {
-color: red;
-  font-family: myTimes8;
+  color: red;
+  font-family: myTimes6;
   font-size: 0.989em;
   text-align: left;
-  line-height: 0.3em;
+  line-height: 2.3em;
   margin-left: 0em;
   word-break: break-all;
-}  
+}
 img {
   border: 0.1px solid blue;
   border-radius: 0.3em;
   padding: 1.5em;
   width: 6.6em;
-  height:3.0em;
+  height: 3em;
 }
 footer {
   position: absolute;
@@ -114,7 +114,7 @@ footer {
 }
 h2 {
   color: blue;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   text-align: right;
   word-spacing: 3em;
   font-size: 22px;
