@@ -1,8 +1,40 @@
 body {
 }
+@font-face {
+  font-family: myTimes1; 
+  src: url(romane.otf); 
+}
+@font-face {
+  font-family: myTimes2; 
+  src: url(italic.otf); 
+}
+@font-face {
+  font-family: myTimes3; 
+  src: url(bolditalic.otf); 
+}
+@font-face {
+  font-family: myTimes4; 
+  src: url(semibold.otf); 
+}
+@font-face {
+  font-family: myTimes5; 
+  src: url(semibolditalic.otf); 
+}
+@font-face {
+  font-family: myTimes6; 
+  src: url(extrabold.otf); 
+}
+@font-face {
+  font-family: myTimes7; 
+  src: url(bold.otf); 
+}
+@font-face {
+  font-family: myTimes8; 
+  src: url(phonetic.otf); 
+}
 h1 {
   font-size: 2.3em;
-  font-family: 'Times New Roman'; 
+  font-family: myTimes1; 
   color: black;
   word-spacing: 0.66em;
 }
@@ -14,7 +46,7 @@ h1 {
 }
 .date {
   color: rgb(34, 34, 34);
-  font-family: 'Times New Roman';
+  font-family: myTimes1;
   font-size: 2.3em;
   font-style: normal;
   line-height: 0.3em;
@@ -22,7 +54,7 @@ h1 {
 }
 .date2 {
   color: rgb(34, 34, 34);
-  font-family: 'Times New Roman';
+  font-family: myTimes1;
   text-align: right;
   font-size: 2.3em;
   font-style: normal;
@@ -31,7 +63,7 @@ h1 {
 }
 .answer {
   color: black;
-  font-family: 'Times New Roman';
+  font-family: myTimes1;
   font-size: 0.989em;
   text-align: left;
   line-height: 1.95;
@@ -41,7 +73,7 @@ h1 {
 }
 .answer1 {
   color: black;
-  font-family: 'Times New Roman';
+  font-family: myTimes2;
   font-style: italic;
   font-size: 0.898em;
   text-align: left;
@@ -50,12 +82,21 @@ h1 {
 }
 .answer2 {
   position: absolute;
-  font-family: 'Times New Roman';
+  font-family: myTimes1;
   bottom: 2.3em;
   left: 0em;
   font-style: normal;
   font-size: 16px;
 }
+.answer3 {
+color: red;
+  font-family: myTimes8;
+  font-size: 0.989em;
+  text-align: left;
+  line-height: 0.3em;
+  margin-left: 0em;
+  word-break: break-all;
+}  
 img {
   border: 0.1px solid blue;
   border-radius: 0.3em;
@@ -65,7 +106,7 @@ img {
 }
 footer {
   position: absolute;
-  font-family: 'Times New Roman';
+  font-family: myTimes1;
   bottom: 10px;
   right: 10px;
   font-style: normal;
